@@ -147,7 +147,7 @@ public class Invader {
                 playerShipX + playerShipLength < x + length) || (playerShipX > x && playerShipX < x + length)) {
 
             // A 1 in 500 chance to shoot
-            randomNumber = generator.nextInt(150);
+            randomNumber = generator.nextInt(100);
             if(randomNumber == 0) {
                 return true;
             }
